@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="Login"></include>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG._1_Multiple_Test_Methods"/>
+      <class name="TestNG._2_Priority_Basis_Execution"/>
+      <class name="TestNG._4_Depends_On_Methods"/>
+      <class name="TestNG._7_Assertion"/>
+      <class name="TestNG._3__Invocation_Count"/>
+      <class name="TestNG._5_Annotations_TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
