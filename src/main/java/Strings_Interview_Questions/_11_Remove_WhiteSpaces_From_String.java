@@ -11,7 +11,7 @@ public class _11_Remove_WhiteSpaces_From_String
 		System.out.println(s);
 
 	}
-
+System.out.Println("EDit");
 }
 
 
